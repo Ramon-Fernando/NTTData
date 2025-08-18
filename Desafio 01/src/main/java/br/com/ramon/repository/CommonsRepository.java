@@ -4,6 +4,7 @@ import br.com.ramon.exception.NoFundsEnoughException;
 import br.com.ramon.model.AccountWallet;
 import br.com.ramon.model.Money;
 import br.com.ramon.model.MoneyAudit;
+import br.com.ramon.model.Wallet;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
@@ -18,7 +19,7 @@ import static lombok.AccessLevel.PRIVATE;
 @NoArgsConstructor(access = PRIVATE)
 public final class CommonsRepository {
 
-    public static void checkFundsForTransaction(final AccountWallet source, final long amount){
+    public static void checkFundsForTransaction(final Wallet source, final long amount){
         if (source.getFunds() < amount) {
             throw new NoFundsEnoughException("Sua conta não tem dinheiro o suficiente para realizar essa transação");
         }

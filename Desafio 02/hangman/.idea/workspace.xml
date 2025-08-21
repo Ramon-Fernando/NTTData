@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa13fa50-770f-47fe-8fa1-016dc687d523" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ramon/hangman/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ramon/hangman/exception/GameIsFinishedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ramon/hangman/exception/LetterAlreadyInputtedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ramon/hangman/model/HangmanChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ramon/hangman/model/HangmanGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ramon/hangman/model/HangmanGameStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +89,7 @@
       <workItem from="1755624763983" duration="655000" />
       <workItem from="1755674600737" duration="2152000" />
       <workItem from="1755759357575" duration="8856000" />
-      <workItem from="1755771341717" duration="369000" />
+      <workItem from="1755771341717" duration="467000" />
     </task>
     <servers />
   </component>

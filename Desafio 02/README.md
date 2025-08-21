@@ -1,8 +1,8 @@
 # 💻 NTT Data - Java e IA
 
-## 📝 Desafio: Criando um aplicativo de controle de transações financeiras com POO
+## 📝 Desafio: Criando um jogo da forca com uma aplicação console
 
-O objetivo do desafio é consolidar conceitos fundamentais da programação orientada a objetos (POO), como herança, encapsulamento, polimorfismo, abstração e reuso de código. A aplicação simula um sistema bancário básico que permite a criação de contas, depósitos, saques, transferências via PIX, criação de investimentos e acompanhamento de histórico de transações.
+Uso de conceitos de Programação Orientada a Objetos (POO). Desenvolvido em ambiente console, o jogo inclui a estrutura completa de um jogo tradicional da forca, desde a definição da palavra oculta até a montagem gráfica simplificada da forca e da interação com o usuário por meio de menus e entradas de dados.
 
 ## 🚀 Como Rodar o Projeto
 
@@ -20,19 +20,19 @@ Antes de começar, você precisará ter os seguintes softwares instalados:
 
     Abra seu terminal ou prompt de comando e clone o repositório para a sua máquina.
     ```bash
-    git clone https://github.com/Ramon-Fernando/NTTData/tree/main/Desafio%2001
+    git clone https://github.com/Ramon-Fernando/NTTData/tree/main/Desafio%2002
     ```
 
 2.  **Navegue até a Pasta do Projeto**
 
     ```bash
-    cd "Desafio 01" 
+    cd "Desafio 02" 
     ```
-    *(É recomendado usar aspas ao redor do nome da pasta, pois ele contém espaços)*
+    *(Use aspas se o seu terminal não lidar bem com nomes de pasta que contêm espaços)*
 
 3.  **Execute a Aplicação**
 
-    O projeto utiliza o **Gradle Wrapper**, o que dispensa a necessidade de ter o Gradle instalado globalmente no seu sistema.
+    O projeto utiliza o **Gradle Wrapper**, que permite executá-lo sem a necessidade de ter o Gradle instalado globalmente no seu sistema.
 
     * **No Windows (usando o Prompt de Comando ou PowerShell):**
         ```bash
@@ -43,7 +43,7 @@ Antes de começar, você precisará ter os seguintes softwares instalados:
         ```bash
         ./gradlew run
         ```
-    Este comando irá baixar as dependências, compilar o código e iniciar a aplicação a partir da classe `Main`.
+    Este comando irá baixar as dependências necessárias, compilar o código-fonte e iniciar a aplicação a partir da classe `Main`.
 
 ---
 
@@ -51,7 +51,7 @@ Antes de começar, você precisará ter os seguintes softwares instalados:
 
 Se preferir, você pode gerar um arquivo `.jar` executável:
 
-1.  **Construa o projeto (já dentro da pasta `Desafio 01`):**
+1.  **Construa o projeto (já dentro da pasta `Desafio 02`):**
     * No Windows:
         ```bash
         .\gradlew.bat build
@@ -62,7 +62,7 @@ Se preferir, você pode gerar um arquivo `.jar` executável:
         ```
 
 2.  **Execute o arquivo `.jar`:**
-    Após a conclusão, o arquivo `.jar` estará na pasta `build/libs/`. Você pode executá-lo com o comando abaixo (lembre-se de substituir `nome-do-arquivo.jar` pelo nome real do arquivo gerado).
+    Após o processo, o arquivo `.jar` estará localizado na pasta `build/libs/`. Você pode executá-lo com o seguinte comando (lembre-se de substituir `nome-do-arquivo.jar` pelo nome real do arquivo gerado):
     ```bash
     java -jar build/libs/nome-do-arquivo.jar
     ```

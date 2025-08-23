@@ -3,16 +3,17 @@ package com.nttdata.challenge.product_service.services;
 import com.nttdata.challenge.product_service.dto.ProductDTO;
 import com.nttdata.challenge.product_service.entities.Product;
 import com.nttdata.challenge.product_service.repositories.ProductRepository;
+import com.nttdata.challenge.product_service.services.exceptions.DatabaseException;
+import com.nttdata.challenge.product_service.services.exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.client.ResourceAccessException;
 
-import java.util.List;
-
+@Service
 public class ProductService {
 
     private ProductRepository repository;

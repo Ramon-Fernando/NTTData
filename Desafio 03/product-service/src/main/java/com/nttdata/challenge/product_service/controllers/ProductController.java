@@ -22,7 +22,7 @@ public class ProductController {
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<ProductDTO> findById(@PathVariable Long id) {
+    public ResponseEntity<ProductDTO> findById(@PathVariable("id") Long id) {
         ProductDTO dto = service.findById(id);
         return ResponseEntity.ok(dto);
     }
@@ -42,13 +42,13 @@ public class ProductController {
     }
 
     @PutMapping(value = "/{id}")
-    public ResponseEntity<ProductDTO> update(@PathVariable Long id, @Valid @RequestBody ProductDTO dto) {
+    public ResponseEntity<ProductDTO> update(@PathVariable("id") Long id, @Valid @RequestBody ProductDTO dto) {
         dto = service.update(id, dto);
         return ResponseEntity.ok(dto);
     }
 
     @DeleteMapping(value = "/{id}")
-    public ResponseEntity<Void> delete(@PathVariable Long id) {
+    public ResponseEntity<Void> delete(@PathVariable("id") Long id) {
         service.delete(id);
         return ResponseEntity.noContent().build();
     }

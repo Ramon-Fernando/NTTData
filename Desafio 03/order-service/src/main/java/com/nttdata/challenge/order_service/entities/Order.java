@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import java.time.Instant;
 import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(name = "tb_order")
@@ -44,7 +45,7 @@ public class Order {
         this.moment = moment;
     }
 
-    public List<OrderItem> getItems() {
+    public Set<OrderItem> getItems() {
         return items;
     }
 

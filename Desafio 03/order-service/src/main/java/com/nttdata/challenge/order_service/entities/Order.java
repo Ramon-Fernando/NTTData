@@ -20,13 +20,14 @@ public class Order {
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     private Set<OrderItem> items = new HashSet<>();
 
+    private Double totalPrice;
+
     public Order() {
     }
 
     public Order(Long id, Instant moment) {
         this.id = id;
         this.moment = moment;
-        this.items = items;
     }
 
     public Long getId() {
@@ -47,6 +48,14 @@ public class Order {
 
     public Set<OrderItem> getItems() {
         return items;
+    }
+
+    public void setItems(Set<OrderItem> items) {
+        this.items = items;
+    }
+
+    public void setTotalPrice(Double totalPrice) {
+        this.totalPrice = totalPrice;
     }
 
     @Override

@@ -58,6 +58,10 @@ public class Order {
         this.totalPrice = totalPrice;
     }
 
+    public Double getTotalPrice() {
+        return totalPrice;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof Order)) return false;

@@ -2,7 +2,7 @@
 
 Este projeto implementa uma arquitetura de microsserviços para um sistema simples de catálogo de produtos e pedidos, utilizando Spring Boot e Spring Cloud. O objetivo é demonstrar conceitos de arquitetura moderna, como Service Discovery, API Gateway, comunicação entre serviços e persistência de dados.
 
-![desafioTecnico](.desafioTecnico.png)
+![desafioTecnico](desafioTecnico.png)
 
 ## Arquitetura Proposta
 

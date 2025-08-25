@@ -55,6 +55,6 @@ public class OrderService {
     }
 
     public List<Order> findAll() {
-        return repository.findAll();
+        return repository.findAllWithItems();
     }
 }
